@@ -1,0 +1,101 @@
+
+/*Site informações*/
+
+
+.info1{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 9;
+    border:grey 2px solid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+.titulo_info{
+    display: grid;
+    grid-column-start: 1;
+	grid-column-end:4;
+
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border: gold 2px solid;
+	justify-items: center;
+	
+}
+
+.texto_info{
+    justify-items: center;
+    border: #ffd700 2px solid;
+display:grid;
+grid-column-start: 1;
+grid-column-end: 1;
+grid-row-start: 2;
+}
+
+
+.texto_info2{
+    justify-items: center;
+    border: gold 2px solid;
+display:grid;
+grid-column-start: 2;
+grid-column-end: 2;
+grid-row-start: 2;
+}
+
+.texto_info3{
+    justify-items: center;
+    border: gold 2px solid;
+display:grid;
+grid-column-start: 3;
+grid-column-end: 3;
+grid-row-start: 2;
+}
+.rodape{
+	background-color: rgb(128, 43, 0);
+	/*background-image: linear-gradient(to left, rgb(128, 43, 0), rgb(255, 119, 51), rgb(255, 119, 51),rgb(128, 43, 0)) ; 
+*/
+	border: #804000 2px solid;
+	display: grid;
+	grid-column-start:1;
+	grid-column-end: 4;
+	grid-row-start: 50;
+	grid-row-end: 50;
+
+	grid-template-columns: repeat(4, 1fr 1fr);
+	
+
+}
+.rodape > div{
+	
+	text-align: left;
+	justify-items: left;
+	/*border: yellow 2px solid;*/
+	padding: 20px;
+	
+}
+.rodape > div p{
+	font-size: 12.5px;
+}
+
+.RPG{
+	display: grid;
+	grid-column-start:4;
+	grid-column-end: 5;
+	grid-row-start: 1;
+}
+.loja{
+	justify-items: left;
+	display: grid;
+	grid-column-start:5;
+	grid-column-end: 6;
+}
+.info{
+	
+	justify-items: center;
+	display: grid;
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 1;
+}

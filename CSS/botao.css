@@ -1,0 +1,38 @@
+.empresa{padding: 20px;margin: 5px;border-radius: 5px;
+    background-image: url(imagens/cademp.png); background-repeat: no-repeat;     background-size: 100%;   
+    width: 200px;height: 35px;  
+}
+.produto{padding: 20px;margin: 5px;border-radius: 5px;
+    background-image: url(imagens/cadprod-1.png); background-repeat: no-repeat;     background-size: 100%;   
+    width: 200px;height: 35px;  
+}
+.usuario{padding: 20px;margin: 5px;border-radius: 5px;
+    background-image: url(imagens/cadusu.png); background-repeat: no-repeat;     background-size: 100%;   
+    width: 200px;height: 35px;  
+}
+.sair{padding: 20px;margin: 5px;border-radius: 5px;
+    background-image: url(imagens/sair.png); background-repeat: no-repeat;     background-size: 100%;   
+    width: 100px;height: 15px;  
+}
+
+.empresa:hover{padding: 20px;margin: 5px;border-radius: 5px;
+    background-image: url(imagens/ehover.png); background-repeat: no-repeat;     background-size: 100%;   
+    width: 200px;height: 35px;  
+}
+.produto:hover{padding: 20px;margin: 5px;border-radius: 5px;
+    background-image: url(imagens/phover.png); background-repeat: no-repeat;     background-size: 100%;   
+    width: 200px;height: 35px;  
+}
+.usuario:hover{padding: 20px;margin: 5px;border-radius: 5px;
+    background-image: url(imagens/uhover.png); background-repeat: no-repeat;     background-size: 100%;   
+    width: 200px;height: 35px;  
+}
+.sair:hover{padding: 20px;margin: 5px;border-radius: 5px;
+    background-image: url(imagens/sairs.png); background-repeat: no-repeat;     background-size: 100%;   
+    width: 100px;height: 15px;  
+}
+
+.todosb{background-color: black;color:white;   width: 200px;height: 35px;  border-radius:10px; margin:25px
+}
+.todosb:hover{background-color: white;color:black;   width: 200px;height: 35px;  border-radius:10px; margin:25px
+}

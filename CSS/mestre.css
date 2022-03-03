@@ -1,0 +1,59 @@
+.fichas_m{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: auto;
+    /*border: 2px solid gold;
+    background-color: brown;*/
+
+}
+a.m{
+    color: black;
+    background-color: #662200;
+    border: darkred;
+    text-decoration: none;
+    box-shadow: #802b00 2px 2px 0px ;
+
+}
+a.m:hover{
+    
+    background-color: #802b00 ;
+    border: gold;
+    text-decoration: none;
+    box-shadow: #ff661a 2px 2px 0px ;
+}
+
+/*
+.fundo_m{
+    background-color:brown;
+     display:grid; 
+     grid-gap:5px;
+     grid-template-rows: ;
+     grid-row-start: 3;
+     grid-row-end: 20;
+}-*/
+
+.mestres{
+    background-color: #6b6b47;
+    display: grid;
+    
+    grid-template-columns: 2fr;  
+  /*  grid-column-start: 2;
+    grid-row-start: 4;
+    grid-column-end: 2;
+    grid-row-end: 12;*/
+    margin:20px;
+    padding: 10px;
+    border-radius: 20px; 
+    border: 2px #1f1f14 solid;
+    width:300px;
+    height: 50px;
+}
+a:hover{
+    text-decoration: none;
+}
+.mestres:hover{
+    border: 3px gold solid;
+   /* background-color: #331100;*/
+   border-radius: 20px;
+}

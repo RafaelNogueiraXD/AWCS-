@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <link rel="stylesheet" href="../atuali/main.css">
+    <link rel="stylesheet" href="../atuali/main2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+   <meta charset="UTF-8">
+    <title>Empresa</title>
+</head>
+<body>
+    <header>       <div class="cabes">
+        <a href="../pag/pagina.php"> <img src="../pag/img/logoawcs.png" class="awcs"></a>
+     <ul>
+         <li><h3><a href="../empredit/0-empresa.php"><b> Empresas</a></b></h3></li>
+         <li><h3><a href="../produto/0-prod.php"><b class="links_topo">Produtos</b></a></h3></li>
+         <li><h3><a href="../usuarios/1-usuarios.php"><b>Usuários</b></a></h3></li>
+         <li><h3><a href="../lista/0.1mostra.php"><b class="links_topo">Listas</b></a></h3></li>
+         <li><h3><a href="../about.php"><b class="links_topo">Sobre Nós</b></a></h3></li>
+ </ul>
+ <div class="sair">               
+         <a href="../login/logout.php"><div class="sair-1"></div></a> 
+ </div>
+</div>
+
+</header>
+
+      <center>        <h2>Cadestre a Empresa</h2>
+        <form action="empresa.php" method="GET">
+        <table border="0">
+            <tr>
+                <td><label class="col-sm-2 col-form-label" for="Nome da Empresa">Nome</label></td>
+                <td><input class="form-control"  required type="text" maxlength="48" placeholder="Digite o nome da empresa" name="empresa" id="Nome da Empresa"></td>
+            </tr>
+            
+            <tr>
+                <td><label class="col-sm-2 col-form-label" for="Localização">Localização</label></td>
+                <td><input class="form-control" required type="text" id="Localização" maxlength="99" placeholder="digite onde a empresa se localiza" name="local"></td>
+            </tr>
+            
+            <tr>
+                <td><label class="col-sm-2 col-form-label" for="CNPJ">CNPJ</label></td>
+                <td><input class="form-control" required type="numero" id="CNPJ" maxlength="14" name="cnpj" placeholder="Digite o CPNJ da empresa"></td>
+            </tr>
+            
+            <tr>
+                <td><label class="col-sm-2 col-form-label" for="Resumo">Resumo</label></td>
+                <td><textarea class="form-control" required id="Resumo" name="resumo" placeholder="Escreva um breve resumo" cols="60" rows="7"></textarea></td>
+            </tr>
+       
+            
+            <tr>
+                <td><input type="reset"></td>
+                <td><input type="submit" value="Cadastrar!"></td>
+            </tr>
+        </table>
+    </form>
+</center>
+<footer>
+    <div class="final">
+         <img src="../pag/img/unip.png" style="padding-bottom: 20px">
+         <img src="../pag/img/logoawcs.png" class="awcs">
+         <img src="../pag/img/if.png" alt="">
+    </div>
+
+</footer>
+</body>
+</body>
+</html>

@@ -1,0 +1,152 @@
+
+body {/*background-image: linear-gradient(to left, rgb(61, 61, 41), #c2c2a3, #c2c2a3,rgb(61, 61, 41)) ; 
+    */background-color: #b8b894;font-family: Arial, Helvetica, sans-serif;
+    padding: 10px
+
+}
+   .white{color: rgb(70, 3, 3); border: 2px; border-color: black;background-color: darkgray;width: 550px; height: 450px;}
+   .zinput{width: 200px;height: 35px; background-image:linear-gradient(to top,rgb(255, 170, 128),rgb(255, 119, 51));
+      border: gold 0.5px solid}
+  input{
+    cursor: default;
+    background-color: rgba(255,255,255,0.01);
+    color: white;
+    display: block;
+    height: 40px;
+    width: 300px;
+    border-radius: 30px;
+    border:black 1px solid;
+    margin: 10px;
+    font-size: 12pt;
+    padding: 10px 20px;
+    outline: none;
+  }
+  table{
+    background-color: rgba(255,255,255,0.01);
+    
+  }
+  
+  td{   cursor: default;
+    background-color: rgba(255,255,255,0.01);
+    color: white;
+    text-align: center;
+    height: 20px;
+    width: 150px;
+    border:black 1px solid;
+    margin: 10px;
+    font-size: 12pt;
+    padding: 10px 20px;
+    outline: none;}
+  option{
+    border-radius: 5px;
+    background-color: #4d4d33;
+  }
+  textarea{
+   cursor: default;
+    background-color: rgba(255,255,255,0.01);
+  }
+  select{
+    cursor: default;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    display: block;
+    height: 40px;
+    width: 300px;
+    border-radius: 30px;
+    border:black 1px solid;
+    margin: 10px;
+    font-size: 12pt;
+    padding: 10px 20px;
+    outline: none;
+  }
+   .bt{
+     padding: 5px;/*
+     border-radius: 5px; 
+    background-image: linear-gradient(to top, #adad85,#4d4d33) ;
+    color:black;
+  box-shadow:0 5px 0 #4d4d33;*/
+    background-image: url(imagens/voltar.png);   background-repeat: no-repeat;     background-size: 100%;   
+    width: 150px;height: 35px;
+    border-radius: 10px;
+  }
+  .bt:hover{
+    text-decoration: none;/*
+    background:#4d4d33;
+    box-shadow:0 5px 0 #adad85;*/ background-image: url(imagens/voltar.png);   background-repeat: no-repeat;     background-size: 100%;   
+    box-shadow:0 3px 10px white;
+	  width: 150px;height: 35px;
+    border-radius: 10px;
+}
+.bts{
+  padding: 5px;
+  border-radius: 5px; 
+ background-image: linear-gradient(to top, #adad85,#4d4d33) ;
+ color:black;
+box-shadow:0 5px 0 #4d4d33;
+
+ width:100px;height: 25px;
+}
+.bts:hover{
+ text-decoration: none;
+ background:#4d4d33;
+ box-shadow:0 5px 0 #adad85;
+width: 100px;height: 25px;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+div.corpo{
+  /*background-color:red;*/
+  width: 420px;
+  margin: 80px auto 0px auto; 
+  
+}
+
+div.corpo h1,div.corpo1 h1{
+  /*background-color:red;*/
+  text-align: center;
+  padding: 20px;
+}
+
+div.corpo1 {
+  /*background-color:red;*/
+  width: 420px;
+  margin: 80px auto 0px auto; 
+  
+}
+a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+a:hover{
+  text-decoration:underline;
+}
+input[type=reset]{
+  background-color:rgb(128, 43, 0);
+  border:none;
+  cursor: pointer;
+}
+input[type=submit]{
+  background-color:#8c8c8c;
+  border:none;
+  cursor: pointer;
+}/*
+input[type=submit]:hover{
+  background-color:#ff5500;
+}*/
+input[type=reset]:hover{
+  background-color:#ff5500;
+}
+b{
+  color: black;
+}
+
+
+::-webkit-input-placeholder{color: gray}
+:-moz-placeholder{color: grey}
+::-moz-placeholder{color:grey}
+:-ms-input-placeholder{color: grey}

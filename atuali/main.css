@@ -1,0 +1,232 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0
+}
+.cabes{
+    width: 100%;
+    background-color: #737373;
+    height: 124px;
+  
+    padding-top: 10px;
+  
+}
+.cabes img{
+    width: 110px;
+    float: left;
+    margin-left: 41px;
+    margin-top: 36px;
+}
+.awcs{
+    padding-bottom: 13px;
+
+}
+.opcoes{
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 55%;
+    background-color: #e6e6e6ff;
+    height:100px;
+    margin-left: 25%;
+    padding-top: 7px;
+}
+.cabes ul li{
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: -14%;
+    font-size: 10px;
+    font-family: initial;
+    margin-top: 29px;
+  
+}
+.cabes ul li h3{
+    font-size: 25px; 
+}
+
+
+.cabes ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.cabes ul li a:hover{
+    color: #1a1919;;
+    border-bottom: 3px #8b8b8b solid;
+    text-decoration: none;
+}
+.dado-usu{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 55%;
+    background-color: #e6e6e6ff;
+    height:300px;
+    border: black 3px solid;
+    margin-left: 25%;
+    padding-top: 7px; 
+    box-shadow: 5px 5px 5px black
+}
+.dado-usu div{
+    padding-left:20%; 
+    text-align: initial;
+}
+.h22{
+     margin-left: 30%;
+
+}
+.h222{
+     margin-left:-19%;
+     
+}
+.sair{
+    margin-left:87%; 
+    width: 100px;height: 40px;
+    margin-top: -53px
+    
+}
+.sair-1{
+    background-image: url(../CSS/imagens/sair.png);
+    width: 100px;height: 40px;
+    border-radius: 5px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.sair-1:hover{
+    background-image: url(../CSS/imagens/sairs.png);
+    width: 100px;height: 40px;
+    border-radius: 5px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.bt-s{
+   width: 120px;height: 40px;
+   border-radius: 5px
+
+}
+footer{
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.final{
+    
+    margin-top: 20px; 
+    width: 100%;
+    background-color: #737373;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 12px;
+    margin-top: 10%;
+    margin-bottom: 0;
+}
+.final img{
+    width: 100px;
+    margin-left: 50px 
+}
+.tabela{
+    border-radius: 10px;
+    margin-left: 15%;
+    width: 70%;
+    height: auto;
+    margin-top: 3%;
+
+    box-shadow: 5px 5px 5px black;
+  
+}
+.tdcon{
+    padding: 20px;
+
+    height: 600px;
+    margin-bottom: 100px;
+
+}
+.con1{
+    text-align: center;
+    width: 40%;
+    margin-left: 30px;
+    
+}
+.con2{
+    width: 40%;
+    margin-left: 50%;
+    margin-top: -30%;
+    text-align: center;
+    border: 0px black solid;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+    padding: 10px; 
+}
+.lista{
+    text-align: center;
+    background-color: #f0efedff;
+    margin-top: 50px;
+   
+    border: 3px black solid;
+    margin-bottom: px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    margin-left: 25%;
+    width: 55%;
+}
+footer{
+    margin-top: 10%;
+    margin-bottom: 0;
+}
+.con3{
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -21%;
+    text-align: center;
+    border: 0px black solid;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+    padding: 10px;
+}
+.centraliza{
+    margin-top: 10%;
+    text-align: center;
+    /*border: 1px  #1a1919 solid;
+    */margin-bottom: 20%;
+
+}
+.muda1, .muda2{
+    display: block;
+    /* margin-left: 1%; */
+    margin-right: 83%;
+    margin-left: -5%;
+}
+.div5, .div4{
+    margin-top: -39px;
+    
+}
+.padrao{
+    margin-top: 2px;
+ border: 1px grey medium;
+ width: 100px;
+ height: 40px;
+ display: block;
+}
+.button:checked{
+    background-color: #0000009c;
+}
+
+.ts{
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 15%;
+    width: 70%;
+    height: auto;
+    margin-top: 3%;
+    box-shadow: 5px 5px 5px black;
+    border: 1px black solid;
+}
+.resumoemp{
+    text-align: left;
+margin-top: 15%;
+margin-left: 3%;
+width: 87%;
+border: 1px black solid;
+border-radius: 10px;
+height: 173px;
+padding: 20px;
+box-shadow: 2px 2px 6px black;
+}

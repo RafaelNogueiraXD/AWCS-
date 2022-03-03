@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../atuali/main.css">
+    <link rel="stylesheet" href="../atuali/main2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+    <title>Document</title>
+</head>
+<style>
+    .espaco{height:100px;width:20px}
+</style>
+<body>
+    <header>       <div class="cabes">
+        <a href="../pag/pagina.php"> <img src="../pag/img/logoawcs.png" class="awcs"></a>
+     <ul>
+         <li><h3><a href="../empredit/0-empresa.php"><b> Empresas</a></b></h3></li>
+         <li><h3><a href="../produto/0-prod.php"><b class="links_topo">Produtos</b></a></h3></li>
+         <li><h3><a href="../usuarios/1-usuarios.php"><b>Usuários</b></a></h3></li>
+         <li><h3><a href="../lista/0.1mostra.php"><b class="links_topo">Listas</b></a></h3></li>
+         <li><h3><a href="../about.php"><b class="links_topo">Sobre Nós</b></a></h3></li>
+ </ul>
+ <div class="sair">               
+         <a href="../login/logout.php"><div class="sair-1"></div></a> 
+ </div>
+</div>
+
+</header>
+
+      <center>     
+    <div class="Cadastro">
+    <h1>cadastro</h1>
+    <table border="0">
+    <form action="cadastrado.php" method="GET">
+    
+        <tr>
+            <td>nome</td>
+            <td><input class="form-control" type="text" maxlength="30" name="nome" required placeholder="Digite o nome"></td>
+        </tr>
+        
+        <tr>
+                <td>CPf</td>
+                <td><input class="form-control" type="text"   maxlength="11" minlength="11" name="cpf" required></td>
+            </tr>
+            
+        <tr>
+            <td>CARGO</td>
+            <td>
+                <select class="form-control" name="cargo" id="" required>
+                    <option value="">Escolha</option>
+                    <option value="Membro">Membro</option>
+                    <option value="Moderador">Moderador</option>
+                    <option value="Administrador">Administrador</option>
+                    <option value="Gerenciador">Gerenciador</option>
+                </select>
+             </td>
+             <tr>
+                 <td>Email</td>
+                 <td><input class="form-control" type="email" name="email" maxlength="100" required></td>
+             </tr>
+             <tr>
+                 <td>senha</td>
+                 <td><input class="form-control" type="password" name="senha" maxlength="18" minlength="3" required></td>
+             </tr> 
+        </tr>
+ 
+      
+
+            <tr>
+                <td><input type="reset"></td>
+                <td><input type="submit" value="Cadastrar!"></td>
+            </tr>
+
+</form>
+</table>
+</center>
+<div class="espaco">
+</div>
+<footer>
+    <div class="final">
+         <img src="../pag/img/unip.png" style="padding-bottom: 20px">
+         <img src="../pag/img/logoawcs.png" class="awcs">
+         <img src="../pag/img/if.png" alt="">
+    </div>
+
+</footer>
+</body>
+</html>
